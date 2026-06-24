@@ -1,0 +1,12 @@
+[
+  {"feature": "Taux de pauvreté", "value": 0.467},
+  {"feature": "Niveau d'éducation", "value": 0.270},
+  {"feature": "Distance établissement", "value": 0.266},
+  {"feature": "Consultations prénatales", "value": 0.251},
+  {"feature": "Lieu d'accouchement", "value": 0.245},
+  {"feature": "Couverture SBA", "value": 0.243},
+  {"feature": "Éducation du county", "value": 0.222},
+  {"feature": "Âge de la mère", "value": 0.216},
+  {"feature": "Parité", "value": 0.216},
+  {"feature": "Densité établissements", "value": 0.178}
+]

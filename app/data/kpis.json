@@ -1,0 +1,13 @@
+{
+  "total_observations": 6000,
+  "total_deaths": 606,
+  "national_mortality_rate_pct": 10.1,
+  "pct_home_delivery": 29.9,
+  "pct_skilled_attendant": 69.0,
+  "median_anc_visits": 3.0,
+  "pct_postnatal48h": 69.3,
+  "county_with_highest_mortality": "West Pokot",
+  "county_with_lowest_mortality": "Kirinyaga",
+  "highest_mortality_rate_pct": 25.2,
+  "lowest_mortality_rate_pct": 2.99
+}
