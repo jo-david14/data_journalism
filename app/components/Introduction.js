@@ -33,7 +33,7 @@ export default function Introduction() {
           margin: '0 auto 80px'
         }}>
           Le ratio de mortalité maternelle au Kenya stagne depuis dix ans autour de
-          355 pour 100 000 naissances — soit cinq fois l'objectif des Nations Unies pour 2030.
+          355 pour 100 000 naissances  soit cinq fois l'objectif des Nations Unies pour 2030.
           Derrière ce chiffre national, des écarts vertigineux entre comtés que les moyennes officielles
           ont longtemps invisibilisés.
         </p>
@@ -45,7 +45,7 @@ export default function Introduction() {
             color: '#1A1A1A', opacity: 0.82,
             marginBottom: 24
           }}>
-            Hémorragies post-partum, dystocie, éclampsie — les causes médicales sont connues
+            Hémorragies post-partum, dystocie, éclampsie  les causes médicales sont connues
             depuis des décennies. Ce qui persiste, ce ne sont pas les pathologies : c'est
             l'incapacité du système à y répondre. Pénurie de sages-femmes qualifiées, ruptures
             de stock en oxytocine, absence de sang disponible en urgence, hôpitaux de district
@@ -69,8 +69,8 @@ export default function Introduction() {
             color: '#1A1A1A', opacity: 0.82,
             marginBottom: 48
           }}>
-            La politique de gratuité des soins maternels — le programme <em>Linda Mama</em>,
-            lancé en 2013 — avait commencé à inverser la tendance. Son remplacement en 2024
+            La politique de gratuité des soins maternels  le programme <em>Linda Mama</em>,
+            lancé en 2013  avait commencé à inverser la tendance. Son remplacement en 2024
             par un nouveau régime d'assurance (SHIF) a brisé cette dynamique : des femmes
             qui accouchaient en établissement sont revenues aux accouchements à domicile,
             faute de pouvoir payer. Les données de la KDHS 2022 en portent déjà les premières
