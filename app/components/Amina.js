@@ -7,7 +7,7 @@ const etapes = [
     img: '/images/img1.jpg',
     label: 'WEST POKOT · 27 ANS',
     titre: 'Amina attend',
-    texte: `Dans la chaleur sèche de West Pokot, au nord-ouest du Kenya, Amina pose les mains sur son ventre. Elle a 27 ans. Elle attend son troisième enfant. Dehors, la savane s'étend à perte de vue — belle et indifférente. Ici, donner la vie a toujours été une affaire de courage.`,
+    texte: `Dans la chaleur sèche de West Pokot, au nord-ouest du Kenya, Amina pose les mains sur son ventre. Elle a 27 ans. Elle attend son troisième enfant. Dehors, la savane s'étend à perte de vue  belle et indifférente. Ici, donner la vie a toujours été une affaire de courage.`,
     stat: null
   },
   {
