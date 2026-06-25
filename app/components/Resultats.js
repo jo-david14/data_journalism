@@ -84,7 +84,7 @@ function Chapeau({ numero, titre }) {
   )
 }
 
-// Chiffre en incrustation dans le texte — pas isolé, juste mis en valeur
+// Chiffre en incrustation dans le texte  pas isolé, juste mis en valeur
 function Incrustation({ valeur, contexte }) {
   return (
     <span style={{
@@ -98,7 +98,7 @@ function Incrustation({ valeur, contexte }) {
   )
 }
 
-// Encadré latéral pour les chiffres clés — intégré dans le flux
+// Encadré latéral pour les chiffres clés  intégré dans le flux
 function Encadre({ valeur, label, rouge = true }) {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.3 })
   return (
@@ -150,7 +150,7 @@ export default function Resultats() {
   color: '#1A1A1A', opacity: 0.6,
   textAlign: 'center', marginBottom: 72
 }}>
-  Les graphiques ci-dessous sont interactifs — survole, clique, zoome.
+  Les graphiques ci-dessous sont interactifs  survole, clique, zoome.
 </p>
 
         <h2 style={{
@@ -166,7 +166,7 @@ export default function Resultats() {
           color: '#1A1A1A', opacity: 0.6,
           textAlign: 'center', marginBottom: 72
         }}>
-          Les graphiques ci-dessous sont interactifs — survole, clique, zoome.
+          Les graphiques ci-dessous sont interactifs  survole, clique, zoome.
         </p>
 
         {/* ══ 1. COUNTIES ══ */}
@@ -179,7 +179,7 @@ export default function Resultats() {
             une donnée s'impose avec une brutalité statistique : là où une femme vit
             décide en grande partie si elle survivra à son accouchement. Les 47 counties
             du Kenya ne sont pas égaux devant la mort. West Pokot affiche un taux de
-            mortalité de <Incrustation valeur="25,2 %" /> — Kirinyaga descend à <Incrustation valeur="2,99 %" />.
+            mortalité de <Incrustation valeur="25,2 %" />  Kirinyaga descend à <Incrustation valeur="2,99 %" />.
             Même pays. Même année. Même enquête nationale.
           </p>
           <p>
@@ -191,7 +191,7 @@ export default function Resultats() {
         </div>
       </div>
 
-      {/* Graphique counties — pleine largeur pour respirer */}
+      {/* Graphique counties  pleine largeur pour respirer */}
       <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 20px' }}>
         <GraphiquePlotly fichier="county_ranking" hauteur={900} />
         <Legende texte="Taux de mortalité maternelle par county (%), classement des 47 counties" />
@@ -207,7 +207,7 @@ export default function Resultats() {
           <p>
             Le taux national de 10,1 % est déjà alarmant. Mais il masque une réalité
             bien plus violente pour certains groupes. En croisant l'âge et le nombre
-            d'enfants — ce que les statisticiens appellent la parité — on découvre
+            d'enfants  ce que les statisticiens appellent la parité  on découvre
             des zones de danger extrême que les moyennes nationales ne permettent pas
             de voir.
           </p>
@@ -215,7 +215,7 @@ export default function Resultats() {
             Les adolescentes de 15 à 17 ans qui en sont à leur sixième enfant ou plus
             atteignent un taux de mortalité de 60 %. Six fois la moyenne nationale.
             La heatmap ci-dessous rend ce phénomène visible : plus on va vers le coin
-            inférieur droit — jeune âge, grande parité — plus la couleur vire au rouge sombre.
+            inférieur droit  jeune âge, grande parité  plus la couleur vire au rouge sombre.
           </p>
         </div>
 
@@ -240,7 +240,7 @@ export default function Resultats() {
             La parité suit une logique similaire, avec une rupture brutale à partir
             du quatrième enfant. Jusqu'au troisième, le taux reste proche de la moyenne nationale.
             À partir du sixième, il dépasse <Incrustation valeur="25 %" />.
-            La grande multiparité n'est pas une fatalité biologique — c'est la conséquence
+            La grande multiparité n'est pas une fatalité biologique  c'est la conséquence
             d'un accès insuffisant à la contraception et à l'éducation.
           </p>
         </div>
@@ -299,7 +299,7 @@ export default function Resultats() {
             deux des variables les plus déterminantes du modèle. Leur croisement produit
             quatre scénarios aux résultats radicalement différents. À un extrême,
             l'accouchement en établissement avec un professionnel formé. À l'autre,
-            l'accouchement à domicile sans aide qualifiée — le scénario encore le plus
+            l'accouchement à domicile sans aide qualifiée  le scénario encore le plus
             fréquent dans certaines zones rurales.
           </p>
         </div>
@@ -308,7 +308,7 @@ export default function Resultats() {
         <Legende texte="Mortalité maternelle selon le lieu d'accouchement et la présence d'un accompagnant qualifié" />
 
         {/* ══ 6. MODÈLE ══ */}
-        <Chapeau numero="Sixième résultat" titre="Ce que le modèle prédit — et pourquoi on lui fait confiance" />
+        <Chapeau numero="Sixième résultat" titre="Ce que le modèle prédit  et pourquoi on lui fait confiance" />
 
         <div className="texte-article">
           <p>
@@ -318,7 +318,7 @@ export default function Resultats() {
             Un avertissement méthodologique s'impose : avec un taux de mortalité de 10,1 %,
             les données sont fortement déséquilibrées. Nous avons appliqué la technique SMOTE
             pour rééquilibrer l'échantillon d'entraînement, et retenu l'AUC-PR comme
-            métrique principale — plus adaptée aux problèmes de classes déséquilibrées.
+            métrique principale  plus adaptée aux problèmes de classes déséquilibrées.
           </p>
         </div>
 
