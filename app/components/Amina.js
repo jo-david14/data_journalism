@@ -14,14 +14,14 @@ const etapes = [
     img: '/images/img2.jpg',
     label: 'LA DISTANCE',
     titre: '31 kilomètres entre elle et les soins',
-    texte: `Le centre de santé le plus proche est à 31 kilomètres. Sur des pistes de latérite, en saison des pluies, c'est deux heures de trajet — si elle trouve un véhicule. La plupart du temps, il n'y en a pas. La médiane nationale est de 18 km. Pour Amina, chaque kilomètre supplémentaire est une barrière de plus entre elle et la vie.`,
+    texte: `Le centre de santé le plus proche est à 31 kilomètres. Sur des pistes de latérite, en saison des pluies, c'est deux heures de trajet   si elle trouve un véhicule. La plupart du temps, il n'y en a pas. La médiane nationale est de 18 km. Pour Amina, chaque kilomètre supplémentaire est une barrière de plus entre elle et la vie.`,
     stat: { gauche: 'Amina', gaucheVal: '31 km', droite: 'Médiane Kenya', droiteVal: '18 km', rouge: true }
   },
   {
     img: '/images/img3.jpg',
     label: 'LES CONSULTATIONS',
     titre: 'Trois visites. Pas assez.',
-    texte: `Pendant neuf mois, Amina a vu une sage-femme trois fois. L'OMS en recommande huit. Au Kenya, la moyenne est déjà faible — 3,6 visites. Mais dans les zones rurales de West Pokot, même cela devient un luxe. Chaque consultation manquée, c'est un signal d'alerte que personne ne verra.`,
+    texte: `Pendant neuf mois, Amina a vu une sage-femme trois fois. L'OMS en recommande huit. Au Kenya, la moyenne est déjà faible   3,6 visites. Mais dans les zones rurales de West Pokot, même cela devient un luxe. Chaque consultation manquée, c'est un signal d'alerte que personne ne verra.`,
     stat: { type: 'cercles', total: 8, remplis: 3 }
   },
   {
@@ -35,14 +35,14 @@ const etapes = [
     img: null,
     label: 'LE RISQUE',
     titre: null,
-    texte: `Pour une femme avec le profil d'Amina — son âge, sa distance, ses consultations, son lieu d'accouchement — le modèle estime un risque de mortalité de 21 %. Une femme sur cinq dans cette situation ne survivra pas à son accouchement.`,
+    texte: `Pour une femme avec le profil d'Amina   son âge, sa distance, ses consultations, son lieu d'accouchement   le modèle estime un risque de mortalité de 21 %. Une femme sur cinq dans cette situation ne survivra pas à son accouchement.`,
     stat: { type: 'chiffre', valeur: '21%', sous: 'risque estimé de mortalité' }
   },
   {
     img: '/images/img6.jpg',
     label: 'AILLEURS AU KENYA',
     titre: 'À 400 km, une autre réalité',
-    texte: `À Kirinyaga, à l'est du Mont Kenya, le taux de mortalité maternelle est de 2,99 %. Même pays. Même année. Même enquête. La différence entre West Pokot et Kirinyaga n'est pas génétique, ni culturelle. Elle est systémique — le résultat de décennies d'inégalités dans l'accès aux soins, à l'éducation, aux infrastructures.`,
+    texte: `À Kirinyaga, à l'est du Mont Kenya, le taux de mortalité maternelle est de 2,99 %. Même pays. Même année. Même enquête. La différence entre West Pokot et Kirinyaga n'est pas génétique, ni culturelle. Elle est systémique   le résultat de décennies d'inégalités dans l'accès aux soins, à l'éducation, aux infrastructures.`,
     stat: { gauche: 'West Pokot', gaucheVal: '25.2%', droite: 'Kirinyaga', droiteVal: '2.99%', rouge: true }
   },
 ]
