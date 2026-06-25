@@ -68,7 +68,7 @@ export default function ShapSection() {
           >
             {[
               { rang: '01', titre: 'La pauvreté avant tout', texte: 'Le taux de pauvreté du county est le prédicteur le plus puissant. Une femme dans un county pauvre a un risque structurellement plus élevé, indépendamment de ses choix individuels.' },
-              { rang: '02', titre: "L'éducation protège", texte: "Le niveau d'éducation est le deuxième facteur. Chaque année de scolarisation supplémentaire réduit significativement le risque — un argument fort pour l'investissement en éducation." },
+              { rang: '02', titre: "L'éducation protège", texte: "Le niveau d'éducation est le deuxième facteur. Chaque année de scolarisation supplémentaire réduit significativement le risque  un argument fort pour l'investissement en éducation." },
               { rang: '03', titre: 'La distance est mortelle', texte: 'Chaque kilomètre supplémentaire entre le domicile et un établissement de santé augmente le risque. Dans les zones rurales, cette distance est souvent fatale.' },
             ].map(({ rang, titre, texte }) => (
               <div key={rang} style={{
